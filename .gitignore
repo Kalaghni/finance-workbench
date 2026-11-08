@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+*.har
+browser-profiles/
+
+# Personal financial data - kept local, never published
+warehouse/002_fhsa_josh.sql
+warehouse/003_fhsa_room.sql
+warehouse/004_t4_slips.sql
+tests/fhsa.test.js
